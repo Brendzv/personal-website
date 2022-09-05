@@ -1,0 +1,428 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Phone size*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        width: 90%;
+        max-width: 480px;
+        margin: 20px auto;
+        background: #121212;
+    }
+
+    header {
+        background: #1F1B24;
+        display: grid;
+        border-radius: 5% 5% 0% 0%;
+        border-bottom: 10px solid #332940;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+        margin-bottom: 15px;
+    }
+
+    header img {
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 15%;
+        animation: borderColor 3s;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes borderColor {
+        0% {
+            border: 0px solid #3d324d;
+        } 
+        50% {
+            border: 7px solid #473b5a;
+        }
+        100% {
+            border: 0px solid #3d324d;
+        }
+    }
+
+    header h1 {
+        text-align: center;
+        margin-top: 5%;
+        
+        
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 23px;
+    }
+
+    main {
+        background: #1F1B24;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 10% 10%;
+    }
+
+    .about hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .about p {
+        margin-top: 10px;
+    }
+
+    .projects {
+        padding: 10% 10%;
+        display: grid;
+    }
+
+    .projects hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .pj-one {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%;
+    }
+
+    .pj-one a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .pj-two {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%
+    }
+
+}
+
+/*Tables size*/
+
+@media (min-width: 481px) and (max-width: 640px) {
+    body {
+        width: 90%;
+        max-width: 640px;
+        margin: 20px auto;
+        background: #121212;
+    }
+
+    header {
+        background: #1F1B24;
+        display: grid;
+        border-radius: 5% 5% 0% 0%;
+        border-bottom: 10px solid #332940;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+        margin-bottom: 15px;
+    }
+
+    header img {
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 15%;
+        animation: borderColor 3s;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes borderColor {
+        0% {
+            border: 0px solid #3d324d;
+        } 
+        50% {
+            border: 7px solid #473b5a;
+        }
+        100% {
+            border: 0px solid #3d324d;
+        }
+    }
+
+    header h1 {
+        text-align: center;
+        margin-top: 5%;
+        
+        
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 23px;
+    }
+
+    main {
+        background: #1F1B24;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 10% 10%;
+    }
+
+    .about hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .about p {
+        margin-top: 10px;
+    }
+
+    .projects {
+        padding: 10% 10%;
+        display: grid;
+    }
+
+    .projects hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .pj-one {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%;
+    }
+
+    .pj-one a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .pj-two {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%
+    }
+
+}
+
+/*Small screens size*/
+
+@media (min-width: 641px) and (max-width: 1440px) {
+    body {
+        width: 90%;
+        max-width: 1720px;
+        margin: 20px auto;
+        background: #121212;
+    }
+
+    header {
+        background: #1F1B24;
+        display: grid;
+        border-radius: 5% 5% 0% 0%;
+        border-bottom: 10px solid #332940;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+        margin-bottom: 15px;
+    }
+
+    header img {
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 15%;
+        animation: borderColor 3s;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes borderColor {
+        0% {
+            border: 0px solid #3d324d;
+        } 
+        50% {
+            border: 7px solid #473b5a;
+        }
+        100% {
+            border: 0px solid #3d324d;
+        }
+    }
+
+    header h1 {
+        text-align: center;
+        margin-top: 5%;
+        
+        
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 30px;
+    }
+
+    main {
+        background: #1F1B24;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+    }
+
+    .about {
+        font-size: 28px;
+        padding: 10% 10%;
+    }
+
+    .about hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .about p {
+        margin-top: 10px;
+    }
+
+    .projects {
+        padding: 10% 10%;
+        display: grid;
+        font-size: 28px;
+    }
+
+    .projects hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .pj-one {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%;
+    }
+
+    .pj-one a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .pj-two {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%
+    }
+
+}
+
+/*Normal screens size*/
+
+@media (min-width: 1441px) {
+    body {
+        width: 90%;
+        max-width: 1440px;
+        margin: 20px auto;
+        background: #121212;
+    }
+
+    header {
+        background: #1F1B24;
+        display: grid;
+        border-radius: 5% 5% 0% 0%;
+        border-bottom: 10px solid #332940;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+        margin-bottom: 15px;
+    }
+
+    header img {
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 15%;
+        animation: borderColor 3s;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes borderColor {
+        0% {
+            border: 0px solid #3d324d;
+        } 
+        50% {
+            border: 7px solid #473b5a;
+        }
+        100% {
+            border: 0px solid #3d324d;
+        }
+    }
+
+    header h1 {
+        text-align: center;
+        margin-top: 5%;
+        
+        
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 23px;
+    }
+
+    main {
+        background: #1F1B24;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Courier New', Courier, monospace;
+        color: rgba(255, 255, 255, 0.657);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2em;
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 10% 10%;
+    }
+
+    .about hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .about p {
+        margin-top: 10px;
+    }
+
+    .projects {
+        padding: 10% 10%;
+        display: grid;
+    }
+
+    .projects hr {
+        margin: 10px 0px 10px 0px;
+        color: rgba(255, 255, 255, 0.048);
+    }
+
+    .pj-one {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%;
+    }
+
+    .pj-one a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .pj-two {
+        margin-top: 20px;
+        background: #332940;
+        padding: 25px 25px;
+        border-radius: 5%
+    }
+
+}
